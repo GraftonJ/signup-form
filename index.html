@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Sign Up Form</title>
-  </head>
-  <body>
-    <h1>Signup Below</h1>
-      <form>
-        <label for="email">Email:</label>
-        <input id='email' type='email' name='email'>
-      </form>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Sign Up Form</title>
+</head>
+
+<body>
+  <h1>Signup Below</h1>
+  <form>
+    <label for="email">Email:</label>
+    <input id='email' type='email' name='email'>
+    <br>
+    <label for="password">Password:</label>
+    <input id='password' type='password' name='password'>
+    <br>
+    <label for="username">GitHub Username:</label>
+    <input id='username' type='text' name='username'>
+    <p>Choose your product:</p>
+    <input type="radio" id="Choice1" name="product" value="Choice1">
+    <label for="Choice1">Enterprise</label>
+
+    <input type="radio" id="Choice2" name="product" value="Choice2">
+    <label for="Choice2">Pro</label>
+
+    <input type="radio" id="Choice3" name="product" value="Choice3">
+    <label for="Choice3">Free</label>
+    <br>
+    <br>
+    <input type='checkbox' id='rememberMe' name='rememberMe'>
+    <label for='rememberMe'>Remember Me</label>
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+
+
+  </form>
+</body>
+
 </html>
